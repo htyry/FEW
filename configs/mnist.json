@@ -1,0 +1,20 @@
+{
+    "batch_size": 128,
+    "epochs": 60,
+    "lr": 4e-5,
+    "dataset": "MNIST",
+    "model": "CNN",
+    "images": 0,
+    "watermark": 1,
+    "labelA": 0,
+    "labelB": 7,
+    "target": 3,
+    "size": 100,
+    "wm_batch": 2,
+    "prob": 0.05,
+    "top": 3,
+    "mode": "unrelated",
+    "mix": "frequency",
+    "model_path": "./checkpoints/MNIST/",
+    "loss": "none"
+}   

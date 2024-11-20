@@ -1,0 +1,17 @@
+{
+    "batch_size": 128,
+    "seed": 1314,
+    "epochs": 100,
+    "lr": 1e-4,
+    "dataset": "MNIST",
+    "images": 0,
+    "labelA": 0,
+    "labelB": 7,
+    "target": 3,
+    "size": 125,
+    "top": 3,
+    "mix": "frequency",
+    "distill": "soft",
+    "temperatrue": 8,
+    "model_path": "./checkpoints/MNIST/59.pth"
+}

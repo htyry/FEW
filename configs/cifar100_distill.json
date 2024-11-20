@@ -1,0 +1,18 @@
+{
+    "batch_size": 128,
+    "seed": 1314,
+    "epochs": 100,
+    "lr": 4e-4,
+    "dataset": "CIFAR100",
+    "images": 0,
+    "labelA": 2,
+    "labelB": 6,
+    "target": 7,
+    "top": 3,
+    "size": 100,
+    "mix": "frequency",
+    "topK": [72, 73, 81],
+    "distill": "soft",
+    "temperatrue": 16,
+    "model_path": "./checkpoints/CIFAR100/49.pth"
+}

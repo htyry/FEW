@@ -1,0 +1,21 @@
+{
+    "batch_size": 128,
+    "epochs": 60,
+    "lr": 0.1,
+    "wm_lr": 0.5,
+    "dataset": "CIFAR100",
+    "model": "ResNet",
+    "images": 0,
+    "watermark": 1,
+    "labelA": 2,
+    "labelB": 6,
+    "target": 7,
+    "size": 100,
+    "wm_batch": 1,
+    "top": 3,
+    "prob": 0.05,
+    "mode": "unrelated",
+    "mix": "frequency",
+    "model_path": "./checkpoints/CIFAR100/",
+    "loss": "none"
+  }

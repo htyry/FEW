@@ -1,0 +1,21 @@
+{
+    "batch_size": 128,
+    "epochs": 100,
+    "lr": 4e-5,
+    "dataset": "FashionMNIST",
+    "model": "CNN",
+    "images": 0,
+    "wm_lr": 0.5,
+    "watermark": 1,
+    "labelA": 2,
+    "labelB": 6,
+    "prob": 0,
+    "target": 7,
+    "size": 100,
+    "wm_batch": 2,
+    "top": 3,
+    "mode": "unrelated",
+    "mix": "frequency",
+    "model_path": "./checkpoints/FMNIST/",
+    "loss": "none"
+}
